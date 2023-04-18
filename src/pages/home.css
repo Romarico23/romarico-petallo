@@ -1,0 +1,86 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #202b3f;
+  padding-top: 4.7rem;
+  padding-bottom: 2rem;
+}
+.home-content {
+  max-width: 50rem;
+  margin-inline: clamp(1rem, 9vw, 5.5rem);
+}
+.home-content h3 {
+  font-size: clamp(1.8rem, 8vw, 2.5rem);
+  animation: slide-bottom 1s both;
+  animation-delay: 0.7s;
+}
+.home-content h3 span {
+  color: #0ef;
+}
+.home-content h3:nth-of-type(2) {
+  animation: slide-top 1s both;
+  animation-delay: 0.7s;
+}
+.home-content h1 {
+  font-size: clamp(3rem, 10vw, 4rem);
+  padding-block: 0.3rem;
+  line-height: 1.1;
+  animation: slide-right 1s both;
+  animation-delay: 1s;
+}
+.home-content p {
+  font-size: clamp(0.9rem, 5vw, 1rem);
+  margin-top: clamp(1rem, 5vw, 1.2rem);
+  animation: slide-left 1s both;
+  animation-delay: 1s;
+}
+.social-media {
+  height: clamp(1.6rem, 7vw, 2rem);
+  margin-block: clamp(3rem, 10vw, 3.5rem) 1.3rem;
+  display: flex;
+}
+.social-media a {
+  font-size: clamp(1.6rem, 7vw, 2rem);
+  margin-right: min(1.5rem, 7vw);
+  color: #0ef;
+  transition: 0.3s;
+  animation: slide-left 1s both;
+}
+.social-media a:nth-child(1) {
+  animation-delay: 1.2s;
+}
+.social-media a:nth-child(2) {
+  animation-delay: 1.4s;
+}
+.social-media a:nth-child(3) {
+  animation-delay: 1.6s;
+}
+.social-media a:hover {
+  filter: drop-shadow(0 0 5px #0ef);
+  color: #fff;
+}
+.download-cv {
+  animation: slide-top 1s both;
+  animation-delay: 2s;
+}
+.download-cv button {
+  height: clamp(2.4rem, 100vw, 3rem);
+  width: clamp(11rem, 40vw, 12rem);
+  font-size: clamp(0.85rem, 4vw, 0.9rem);
+  font-weight: 500;
+  background: #0ef;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 2rem;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 5px #0ef);
+}
+.download-cv button:hover {
+  filter: none;
+  color: #3c3535;
+  filter: drop-shadow(0 0 2px #0ef);
+}
