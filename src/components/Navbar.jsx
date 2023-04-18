@@ -23,7 +23,7 @@ export const Navbar = () => {
       </div>
       <nav className={menuIcon ? "nav-active" : "nav"}>
         <NavLink to="/" onClick={handleClick}>
-          Homes
+          Homesssasd
         </NavLink>
         <NavLink to="/about" onClick={handleClick}>
           About
