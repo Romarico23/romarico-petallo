@@ -14,7 +14,7 @@ export const Navbar = () => {
   return (
     <header>
       <div className="header-logo">
-        <NavLink to="/" title="Logo">
+        <NavLink to="my-profile/" title="Logo">
           <img src="../src/assets/r-logo.png" alt="Logo" />
         </NavLink>
       </div>
@@ -22,16 +22,16 @@ export const Navbar = () => {
         {!menuIcon ? <BiMenu /> : <IoClose />}
       </div>
       <nav className={menuIcon ? "nav-active" : "nav"}>
-        <NavLink to="/" onClick={handleClick}>
+        <NavLink to="my-profile/" onClick={handleClick}>
           Home
         </NavLink>
-        <NavLink to="/about" onClick={handleClick}>
+        <NavLink to="my-profile/about" onClick={handleClick}>
           About
         </NavLink>
-        <NavLink to="/projects" onClick={handleClick}>
+        <NavLink to="my-profile/projects" onClick={handleClick}>
           Projects
         </NavLink>
-        <NavLink to="/contact" onClick={handleClick}>
+        <NavLink to="my-profile/contact" onClick={handleClick}>
           Contact
         </NavLink>
       </nav>
