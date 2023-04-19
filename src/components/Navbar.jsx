@@ -15,7 +15,7 @@ export const Navbar = () => {
     <header>
       <div className="header-logo">
         <NavLink to="/" title="Logo">
-          <img src="./src/assets/r-logo.PNG" alt="Logo" />
+          <img src="../src/assets/r-logo.PNG" alt="Logo" />
         </NavLink>
       </div>
       <div className="menu-icon" onClick={handleClick}>
