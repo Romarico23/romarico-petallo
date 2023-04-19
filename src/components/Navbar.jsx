@@ -14,24 +14,24 @@ export const Navbar = () => {
   return (
     <header>
       <div className="header-logo">
-        <NavLink to="/" title="Logo">
-          <img src="../src/assets/r-logo.png" alt="Logo" />
+        <NavLink to="romarico-petallo/" title="Logo">
+          <img src="./src/assets/r-logo.png" alt="Logo" />
         </NavLink>
       </div>
       <div className="menu-icon" onClick={handleClick}>
         {!menuIcon ? <BiMenu /> : <IoClose />}
       </div>
       <nav className={menuIcon ? "nav-active" : "nav"}>
-        <NavLink to="/" onClick={handleClick}>
+        <NavLink to="romarico-petallo/" onClick={handleClick}>
           Home
         </NavLink>
-        <NavLink to="/about" onClick={handleClick}>
+        <NavLink to="romarico-petallo/about" onClick={handleClick}>
           About
         </NavLink>
-        <NavLink to="/projects" onClick={handleClick}>
+        <NavLink to="romarico-petallo/projects" onClick={handleClick}>
           Projects
         </NavLink>
-        <NavLink to="/contact" onClick={handleClick}>
+        <NavLink to="romarico-petallo/contact" onClick={handleClick}>
           Contact
         </NavLink>
       </nav>
