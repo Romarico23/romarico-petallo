@@ -14,7 +14,7 @@ function App() {
   // });
   return (
     <div className="App">
-      <Router>
+      <Router basename="/romarico-petallo">
         <Navbar />
         <AnimatedRoutes />
       </Router>
