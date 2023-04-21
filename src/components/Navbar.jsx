@@ -14,10 +14,9 @@ export const Navbar = () => {
   return (
     <header>
       <div className="header-logo">
-        <NavLink to="/" title="Logo">
-          {/* <img src="./public/assets/logos.png" alt="Logo" /> */}
-          <img src="https://i.ibb.co/ThY3wrm/logos.png" alt="Logo" />
-        </NavLink>
+        {/* <NavLink to="/" title="Logo"> */}
+        <img src="https://i.ibb.co/ThY3wrm/logos.png" alt="Logo" />
+        {/* </NavLink> */}
       </div>
       <div className="menu-icon" onClick={handleClick}>
         {!menuIcon ? <BiMenu /> : <IoClose />}

@@ -6,10 +6,10 @@
   font-family: "Inter", sans-serif;
   text-decoration: none;
 }
-.resize-animation-stopper * {
+/* .resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
-}
+} */
 body {
   background: #202b3f;
 }
