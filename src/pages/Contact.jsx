@@ -8,7 +8,7 @@ import "./contact.css";
 
 export const Contact = () => {
   const schema = yup.object().shape({
-    full_name: yup.string().required("Your Full Name is required!"),
+    full_name: yup.string().required(),
     email_address: yup.string().email().required(),
     mobile_number: yup
       .number()
@@ -22,6 +22,7 @@ export const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm({
     resolver: yupResolver(schema),
   });
@@ -38,6 +39,7 @@ export const Contact = () => {
         (result) => {
           console.log(result.text);
           alert("Email Sent!");
+          reset();
         },
         (error) => {
           console.log(error.text);
