@@ -43,7 +43,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className="projects-box">
-            <img src="./src/assets/eshopee.png" alt="Project-3" />
+            <img src="https://i.ibb.co/NFxSdjg/eshopee.png" alt="Project-3" />
             <div className="projects-layer">
               <h4>Shopping Cart</h4>
               <NavLink
