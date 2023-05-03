@@ -43,13 +43,13 @@ export const Projects = () => {
             </div>
           </div>
           <div className="projects-box">
-            <img
-              src="https://images.unsplash.com/photo-1517518295033-d5ab8ca078cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlc2t0b3AlMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Project-3"
-            />
+            <img src="./src/assets/eshopee.png" alt="Project-3" />
             <div className="projects-layer">
-              <h4>Web Title</h4>
-              <NavLink to="/">
+              <h4>Shopping Cart</h4>
+              <NavLink
+                to="https://romarico23.github.io/eshopee/"
+                target="_blank"
+              >
                 <BiLinkExternal />
               </NavLink>
             </div>
