@@ -39,7 +39,7 @@ export const Home = () => {
           <NavLink to="https://www.facebook.com/rico.petallo" title="Facebook">
             <FaFacebook />
           </NavLink>
-          <NavLink to="https://github.com/Rico1515" title="Github">
+          <NavLink to="https://github.com/Romarico23" title="Github">
             <FaGithub />
           </NavLink>
           <NavLink
