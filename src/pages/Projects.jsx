@@ -20,36 +20,39 @@ export const Projects = () => {
         <div className="projects-container">
           <div className="projects-box">
             <img
-              src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="https://i.ibb.co/QM62pyF/gjserviceswebphoto.png"
               alt="Project-1"
             />
             <div className="projects-layer">
-              <h4>Web Title</h4>
-              <NavLink to="/">
+              <h4>GJ Services</h4>
+              <NavLink
+                to="https://romarico23.github.io/gjservices-/#/"
+                target="_blank"
+              >
                 <BiLinkExternal />
               </NavLink>
             </div>
           </div>
           <div className="projects-box">
-            <img
-              src="https://images.unsplash.com/photo-1593640495253-23196b27a87f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-              alt="Project-2"
-            />
-            <div className="projects-layer">
-              <h4>Web Title</h4>
-              <NavLink to="/">
-                <BiLinkExternal />
-              </NavLink>
-            </div>
-          </div>
-          <div className="projects-box">
-            <img src="https://i.ibb.co/NFxSdjg/eshopee.png" alt="Project-3" />
+            <img src="https://i.ibb.co/NFxSdjg/eshopee.png" alt="Project-2" />
             <div className="projects-layer">
               <h4>Shopping Cart</h4>
               <NavLink
                 to="https://romarico23.github.io/eshopee/"
                 target="_blank"
               >
+                <BiLinkExternal />
+              </NavLink>
+            </div>
+          </div>
+          <div className="projects-box">
+            <img
+              src="https://www.lansingstatejournal.com/gcdn/presto/2021/01/07/PLSJ/3c94e117-1984-43b1-bb48-dcfa7b388fa4-Coming_Soon_WEB.jpg?crop=2047,1152,x0,y103&width=2047&height=1152&format=pjpg&auto=webp"
+              alt="Project-3"
+            />
+            <div className="projects-layer">
+              <h4>Coming Soon...</h4>
+              <NavLink to="/">
                 <BiLinkExternal />
               </NavLink>
             </div>

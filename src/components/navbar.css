@@ -1,4 +1,4 @@
-header {
+.header_blue {
   position: fixed;
   display: flex;
   width: 100%;
@@ -6,6 +6,9 @@ header {
   align-items: center;
   z-index: 200;
   background: #202b3f;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
 }
 .header-logo {
   height: 42px;
@@ -33,7 +36,7 @@ nav {
   margin-right: clamp(2.5rem, 7vw, 5rem);
 }
 nav a {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   color: #fff;
   font-size: 18px;
