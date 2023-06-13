@@ -16,7 +16,8 @@
 }
 .about-content h1 {
   font-size: clamp(2.3rem, 10vw, 2.8rem);
-  margin-bottom: clamp(1rem, 6vw, 1.5rem);
+  margin-top: clamp(0rem, 3vw, 1.5rem);
+  margin-bottom: clamp(0rem, 3vw, 1.5rem);
   animation: slide-right 1s both;
   animation-delay: 1s;
 }
@@ -25,7 +26,8 @@
 }
 .about-content h3 {
   font-size: clamp(1.4rem, 6vw, 1.8rem);
-  margin-bottom: 1.3rem;
+  margin-bottom: clamp(0rem, 4vw, 1.3rem);
+
   animation: slide-bottom 1s both;
   animation-delay: 0.7s;
 }
@@ -40,7 +42,7 @@
 }
 .about-content p:nth-of-type(2) {
   font-size: clamp(0.9rem, 3vw, 1rem);
-  margin-bottom: 1.5rem;
+  margin-bottom: clamp(0rem, 4vw, 0.7rem);
   animation: slide-left 1s both;
   animation-delay: 1s;
 }
