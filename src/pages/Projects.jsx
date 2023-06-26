@@ -46,13 +46,13 @@ export const Projects = () => {
             </div>
           </div>
           <div className="projects-box">
-            <img
-              src="https://www.lansingstatejournal.com/gcdn/presto/2021/01/07/PLSJ/3c94e117-1984-43b1-bb48-dcfa7b388fa4-Coming_Soon_WEB.jpg?crop=2047,1152,x0,y103&width=2047&height=1152&format=pjpg&auto=webp"
-              alt="Project-3"
-            />
+            <img src="https://i.ibb.co/SsK6s5n/home.png" alt="Project-3" />
             <div className="projects-layer">
-              <h4>Coming Soon...</h4>
-              <NavLink to="/">
+              <h4>Chat Application</h4>
+              <NavLink
+                to="https://romarico23.github.io/chat-application/#/login"
+                target="_blank"
+              >
                 <BiLinkExternal />
               </NavLink>
             </div>
