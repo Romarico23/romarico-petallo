@@ -25,6 +25,5 @@ dist-ssr
 
 # 
 vite.config.js
-.env
 package-lock.json
 package.json
