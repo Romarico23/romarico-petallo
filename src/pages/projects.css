@@ -1,86 +1,95 @@
 .projects {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  padding-top: 4.7rem;
-  padding-bottom: 5rem;
-  overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding-top: 4.7rem;
+	padding-bottom: 5rem;
+	overflow: hidden;
 }
 .projects-content {
-  max-width: 71rem;
-  padding-inline: clamp(1rem, 5vw, 1.5rem);
+	max-width: 71rem;
+	padding-inline: clamp(1rem, 5vw, 1.5rem);
 }
 .projects-content h1 {
-  font-size: clamp(2rem, 10vw, 2.8rem);
-  margin-top: clamp(1rem, 6vw, 3rem);
-  margin-bottom: clamp(1.7rem, 6vw, 3rem);
-  text-align: center;
-  animation: slide-bottom 1s both;
-  animation-delay: 0.7s;
+	font-size: clamp(2rem, 10vw, 2.8rem);
+	margin-top: clamp(1rem, 6vw, 3rem);
+	margin-bottom: clamp(1.7rem, 6vw, 3rem);
+	text-align: center;
+	animation: slide-bottom 1s both;
+	animation-delay: 0.7s;
 }
 .projects-content h1 span {
-  color: #0ef;
+	color: #0ef;
 }
 .projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 2rem;
-  row-gap: clamp(1.8rem, 12vw, 2.5rem);
-  animation: slide-top 1s both;
-  animation-delay: 1.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 2rem;
+	row-gap: clamp(1.8rem, 12vw, 2.5rem);
+	animation: slide-top 1s both;
+	animation-delay: 1.5s;
 }
 .projects-box {
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
 }
 .projects-box img {
-  height: clamp(13.5rem, 55vw, 14rem);
-  width: clamp(13.5rem, 55vw, 20rem);
-  transition: 0.5s ease;
+	height: clamp(13.5rem, 55vw, 14rem);
+	width: clamp(13.5rem, 55vw, 20rem);
+	transition: 0.5s ease;
 }
 .projects-box:hover img {
-  transform: scale(1.1);
+	transform: scale(1.1);
+}
+.projects-box-mobile-app img {
+	height: clamp(10.5rem, 70vw, 25rem);
+	width: clamp(8rem, 40vw, 13rem);
+	transition: 0.5s ease;
 }
 .projects-box .projects-layer {
-  position: absolute;
-  display: none;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(rgb(0, 0, 0, 0.1), #0ef);
-  top: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  transform: translateY(100%);
-  transition: 0.5s ease;
+	position: absolute;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgb(0, 0, 0, 0.1), #0ef);
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	transform: translateY(100%);
+	transition: 0.5s ease;
 }
 .projects-box:hover .projects-layer {
-  display: block;
-  transform: translateY(0%);
+	display: block;
+	transform: translateY(0%);
 }
 .projects-layer h4 {
-  font-size: clamp(1.7rem, 7vw, 2rem);
-  margin-top: 4rem;
+	font-size: clamp(1.7rem, 7vw, 2rem);
+	margin-top: 4rem;
+}
+.projects-layer-mobile-app h4 {
+	font-size: clamp(1.5rem, 7vw, 2rem);
+	margin-top: clamp(1rem, 20vw, 8rem);
 }
 .projects-layer a {
-  height: clamp(3rem, 10vw, 4rem);
-  width: clamp(3rem, 10vw, 4rem);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 50%;
+	height: clamp(3rem, 10vw, 4rem);
+	width: clamp(3rem, 10vw, 4rem);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 50%;
 }
 .projects-layer a svg {
-  font-size: clamp(1.5rem, 5vw, 2rem);
-  color: #323046;
+	font-size: clamp(1.5rem, 5vw, 2rem);
+	color: #323046;
 }
