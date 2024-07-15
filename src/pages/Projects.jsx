@@ -19,7 +19,7 @@ export const Projects = () => {
 				</h1>
 				<div className="projects-container">
 					<div className="projects-box projects-box-mobile-app">
-						<img src="main/src/assets/instagram.jpg" alt="Mobile App" />
+						<img src="blob/main/src/assets/instagram.jpg" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>Instagram Clone App</h4>
 							<NavLink
@@ -31,7 +31,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box projects-box-mobile-app">
-						<img src=".main/src/assets/tiktok.jpg" alt="Mobile App" />
+						<img src="/blob/main/src/assets/tiktok.jpg" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>
 								Tiktok <br />
@@ -46,7 +46,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box">
-						<img src="./main/src/assets/gjservices.png" alt="Project-1" />
+						<img src="./blob/main/src/assets/gjservices.png" alt="Project-1" />
 						<div className="projects-layer">
 							<h4>GJ Services</h4>
 							<NavLink
@@ -58,7 +58,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box">
-						<img src="../main/assets/eshopee.png" alt="Project-2" />
+						<img src="../main/src/assets/eshopee.png" alt="Project-2" />
 						<div className="projects-layer">
 							<h4>Shopping Cart</h4>
 							<NavLink
@@ -78,6 +78,104 @@ export const Projects = () => {
 							<h4>Chat Application</h4>
 							<NavLink
 								to="https://romarico23.github.io/chat-application/#/login"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					{/* added sample */}
+					<div className="projects-box">
+						<img src="src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src="/src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src="./src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src="../src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					{/*  */}
+					<div className="projects-box">
+						<img src="main/src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src=".main/src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src="./main/src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
+								target="_blank"
+							>
+								<BiLinkExternal />
+							</NavLink>
+						</div>
+					</div>
+					<div className="projects-box">
+						<img src="../main/src/assets/eshopee.png" alt="Project-2" />
+						<div className="projects-layer">
+							<h4>Shopping Cart</h4>
+							<NavLink
+								to="https://romarico23.github.io/eshopee/"
 								target="_blank"
 							>
 								<BiLinkExternal />
