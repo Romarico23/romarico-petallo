@@ -19,7 +19,7 @@ export const Projects = () => {
 				</h1>
 				<div className="projects-container">
 					<div className="projects-box projects-box-mobile-app">
-						<img src="./src/assets/instagram.jpg" alt="Mobile App" />
+						<img src="./src/assets/instagram.JPG" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>Instagram Clone App</h4>
 							<NavLink
@@ -31,7 +31,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box projects-box-mobile-app">
-						<img src="/src/assets/tiktok.jpg" alt="Mobile App" />
+						<img src="./src/assets/tiktok.JPG" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>
 								Tiktok <br />
@@ -46,7 +46,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box">
-						<img src="../src/assets/gjservices.png" alt="Project-1" />
+						<img src="./src/assets/gjservices.PNG" alt="Project-1" />
 						<div className="projects-layer">
 							<h4>GJ Services</h4>
 							<NavLink
@@ -58,7 +58,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box">
-						<img src="../src/assets/eshopee.png" alt="Project-2" />
+						<img src="./src/assets/eshopee.PNG" alt="Project-2" />
 						<div className="projects-layer">
 							<h4>Shopping Cart</h4>
 							<NavLink
@@ -70,7 +70,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box">
-						<img src="../src/assets/chat.png" alt="Project-3" />
+						<img src="./src/assets/chat.PNG" alt="Project-3" />
 						<div className="projects-layer">
 							<h4>Chat Application</h4>
 							<NavLink
