@@ -30,11 +30,7 @@ export const About = () => {
 				<p>
 					Here are the technologies/languages I've been working with recently:
 				</p>
-				<m.ul
-				// initial={{ opacity: 0, y: 20 }}
-				// animate={{ opacity: 1, y: 0 }}
-				// transition={{ duration: 0.1, ease: "easeInOut", delay: 0.2 }}
-				>
+				<ul>
 					<li>Flutter</li>
 					<li>React JS</li>
 					<li>Firebase</li>
@@ -48,7 +44,7 @@ export const About = () => {
 					<li>SASS</li>
 					<li>REST API</li>
 					<li>MYSQL</li>
-				</m.ul>
+				</ul>
 			</div>
 		</m.section>
 	)

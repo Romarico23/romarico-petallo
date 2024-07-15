@@ -19,7 +19,7 @@ export const Projects = () => {
 				</h1>
 				<div className="projects-container">
 					<div className="projects-box projects-box-mobile-app">
-						<img src="../src/assets/instagram.jpg" alt="Mobile App" />
+						<img src="./src/assets/instagram.jpg" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>Instagram Clone App</h4>
 							<NavLink
@@ -31,7 +31,7 @@ export const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-box projects-box-mobile-app">
-						<img src="../src/assets/tiktok.jpg" alt="Mobile App" />
+						<img src="/src/assets/tiktok.jpg" alt="Mobile App" />
 						<div className="projects-layer projects-layer-mobile-app">
 							<h4>
 								Tiktok <br />
