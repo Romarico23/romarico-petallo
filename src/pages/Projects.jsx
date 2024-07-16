@@ -50,7 +50,7 @@ export const Projects = () => {
 						<div className="projects-layer">
 							<h4>GJ Services</h4>
 							<NavLink
-								to="https://romarico23.github.io/gjservices-/#/"
+								to="https://romarico23.github.io/gjservices/"
 								target="_blank"
 							>
 								<BiLinkExternal />
